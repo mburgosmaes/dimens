@@ -26,10 +26,10 @@
         style="@style/layout">
 
         <TextView
-            style="@style/txt"
             android:id="@+id/txtApellidos"
+            style="@style/txt"
             android:text="@string/txtApellidos"
-            />
+            app:fontFamily="@font/aclonica" />
 
         <EditText
             style="@style/editxt"
