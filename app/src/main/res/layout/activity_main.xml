@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        style="@style/layout">
+
+        <TextView
+            android:id="@+id/txtNombre"
+            style="@style/txt"
+            android:text="@string/txtNombre" />
+
+        <EditText
+            android:id="@+id/lblNombre"
+            style="@style/editxt"
+            android:hint="@string/lblNombre" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/layout">
+
+        <TextView
+            style="@style/txt"
+            android:id="@+id/txtApellidos"
+            android:text="@string/txtApellidos"
+            />
+
+        <EditText
+            style="@style/editxt"
+            android:id="@+id/lblApellidos"
+            android:hint="@string/lblApellidos"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/layout">
+
+        <TextView
+            style="@style/txt"
+            android:id="@+id/txtEdad"
+            android:text="@string/txtEdad"
+             />
+
+        <EditText
+            android:id="@+id/lblEdad"
+            style="@style/editxt"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/layout">
+
+        <RadioGroup
+            android:id="@+id/btngrup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="0dp">
+
+            <RadioButton
+                android:id="@+id/btnHombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btnHombre" />
+
+            <RadioButton
+                android:id="@+id/btnMujer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btnMujer" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/layout">
+
+        <TextView
+            style="@style/txt"
+            android:id="@+id/txtEstado"
+            android:text="@string/txtEstado"
+             />
+
+        <Spinner
+            android:id="@+id/lista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/layout">
+
+        <TextView
+            style="@style/txt"
+            android:id="@+id/txtHijos"
+            android:text="@string/txtHijos"
+           />
+
+        <Switch
+            android:id="@+id/switchHijo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:checked="false"
+            android:showText="true"
+            android:textOff="@string/switchNo"
+            android:textOn="@string/switchSi"
+            tools:checked="false" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        style="@style/layout">
+
+        <Button
+            style="@style/botones"
+            android:id="@+id/btnEjemplo"
+            android:text="@string/btnEjemplo" />
+
+        <ImageButton
+            style="@style/botones"
+            android:id="@+id/btnBorrar"
+            app:srcCompat="@android:drawable/ic_menu_delete" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/txt"
+        android:id="@+id/txtInfo"
+         />
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/Azul</item>
+    </style>
+
+    <style name="txt"
+        parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="editxt"
+        parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:inputType">textCapWords|textPersonName</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="layout"
+        parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:padding">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="botones"
+        parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginLeft">80dp</item>
+    </style>
+
+</resources>
